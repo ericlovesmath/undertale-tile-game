@@ -32,5 +32,5 @@ document.addEventListener("keydown", (event) => {
 });
 
 function updateFlavor() {
-  flavorText.textContent = game.flavor.toString();
+  flavorText.textContent = `Flavor: ${game.flavor.toString()}`;
 }
